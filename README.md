@@ -1,7 +1,3 @@
-# dining-web-project
-Interview Project for Applicants
-
-
 # Dining Web Project
 
 This project is to create a basic website from scratch that matches the BYU Dining Services theme. The purpose of this is to test your basic HTML, CSS, and JavaScript skills. Please do not spend more than 3 hours on this project. 
