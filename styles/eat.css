@@ -1,0 +1,92 @@
+/* GLOBALS */
+html {
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+}
+
+h1 {
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    font-weight: lighter;
+    color: #002e5d;
+}
+
+h2 {
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    color: #666666;
+}
+
+.eat-container span {
+    color: black;
+    font-style: normal;
+}
+
+
+/*HEADER STYLES*/
+
+
+/*BANNER CONTAINER*/
+
+
+
+/*EAT CONTAINER*/
+.eat-container {
+    display: grid;
+    grid-template-columns: 50% 1% 49%;
+    font-size: 16px;
+}
+
+.eat-svg {
+    padding: 20px;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.eat-ribbon {
+    background-color: #002e5d;
+    border-radius: 25px;
+    margin: 20px 0px;
+
+}
+
+.eat-description {
+    padding: 0px 20px;
+}
+
+
+
+/*SVG STYLES*/
+#svg-link {
+    text-align: center;
+}
+
+
+#vegetables:hover,
+#proteins:hover,
+#fruits:hover,
+#grains:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+#vegetables:hover {
+    transform: scale(.99, 1.01);
+}
+
+#fruits:hover {
+    transform: scale(.99, .99);
+}
+
+#grains:hover {
+    transform: scale(1.01, .99);
+}
+
+#proteins:hover {
+    transform: scale(1.01, 1.01);
+}
+
+
+
+
+
